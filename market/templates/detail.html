@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1> 상세보기 </h1>
+<br>
+<div class="d-flex align-items-center flex-column">
+    <h2>{{ blog.title }}</h2>
+    <small>{{ blog.date }}</small>
+    <hr width="40%">
+    <p>{{ blog.body }}</p>
+</div>
+
+{% endblock body %}

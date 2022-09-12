@@ -1,14 +1,7 @@
-<!--로그인 여부에 따른 글 보이기-->
-{% if user.is_authenticated %}
-안녕하세요, {{ user.username }}님!<br />
-<a href="{% url 'logout' %}">로그아웃</a>
-{% else %}
-아직 로그인이 되지 않았습니다.<br />
-<a href="{% url 'login' %}">로그인</a>
-<br>
-<a href="{% url 'signup' %}">회원가입</a>
-{% endif %}
-<br />
-
+{% extends "base.html" %}
+{% block body %}
 
 <h1>콩콩마켓</h1>
+<!-- 각 게시판의 글 목록 간단하게 보여줄 예정-->
+
+{% endblock body %}
