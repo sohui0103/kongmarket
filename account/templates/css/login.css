@@ -5,4 +5,6 @@ h1, form{
 h1{
     margin-top: 15%;
 }
-
+.btn{
+    font-size: medium;
+}
