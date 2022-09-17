@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     text-align: center;
     margin-top: 1;
@@ -34,11 +40,12 @@ h1{
     font-family: 'SDSamliphopangche_Outline';
     
 }
-
 .form-control{
     border-color: rgb(199, 197, 197);
     border-radius: 6px;
     font-size: large;
     width: 20%;
     text-align: left;
+    font-family: 'ChosunGu';
 }
+
