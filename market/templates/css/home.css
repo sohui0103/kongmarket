@@ -1,7 +1,42 @@
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html{
     text-align: center;
-    margin-top: 1%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    font-family: 'HS-Regular';
 }
 h1{
-    background-color: rgb(191, 233, 249);
+    background-color: rgb(148, 204, 148);
+    font-size: 50;
+}
+.btn:hover{
+    background-color: rgb(29, 175, 29);
+    border-color: rgb(29, 175, 29);
+    color: whitesmoke;
+}
+.btn{
+    border-radius: 6px;
+    color: rgb(63, 161, 63);
+    border-color: rgb(63, 161, 63);
+    font-size: large;
+    background-color: whitesmoke;
+    font-family: 'SDSamliphopangche_Outline';
+}
+
+.form-control{
+    border-color: rgb(199, 197, 197);
+    border-radius: 6px;
+    font-size: large;
+    width: 20%;
 }
