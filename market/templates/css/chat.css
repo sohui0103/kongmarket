@@ -4,8 +4,8 @@
 }
 .chat_wrap{
     font-size:14px;
-    padding:15px 0;
-    background:#F18C7E;
+    padding: 1px 0;
+    background:#b2ec9a;
     color:white;
     text-align: center;
 }
@@ -50,7 +50,7 @@
     width:100%;
     background-color:#FFF;
     text-align:center;
-    border-top:1px solid#F18C7E;
+    border-top:1px solid#9ddb82;
 }
 .chat_wrap .input-div > textarea{
     width:100%;
@@ -61,4 +61,6 @@
 .format{
     display:none;
 }
-
+textarea{
+    margin-left: 1%;
+}

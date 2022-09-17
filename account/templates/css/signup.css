@@ -1,5 +1,6 @@
 .container{
     text-align: center;
+<<<<<<< HEAD
     margin-top: 13%;
 }
 .btn{
@@ -7,4 +8,7 @@
 }
 .btn{
     font-size: medium;
+=======
+    margin-top: 15%;
+>>>>>>> da443d5e53edca3af9c3b2116e46db47117246c4
 }
