@@ -1,25 +1,26 @@
 <link rel="stylesheet" href="./css/new.css">
 {% extends 'base.html' %}
 {% block body %}
-
+<h1>콩콩마켓</h1>
+<div id="line"></div>
 <br>
-<div class="d-flex align-items-center flex-column">
+<div class="d-flex align-items-center flex-column" id="div1">
     <form action="{% url 'create' %}" method="post">
         {% csrf_token %}        
         <div>
             <br>
-            <label for="title">제목</label>
+            <label for="title" id="title">제목</label>
             <br />
-            <input type="text" name="title" id="title">
+            <input type="text" name="title" id="title1">
         </div>
         <br>
         <div>
-            <label for="body">내용</label>
+            <label for="body" title="body" id="body">내용</label>
             <br />
-            <textarea name="body" id="body" cols="30" rows="10"></textarea>
+            <textarea name="body" id="body1" cols="50" rows="15"></textarea>
         </div>
         <br>
-        <input type="submit" value="글 생성하기">
+        <input type="submit" value="글 생성하기" id="btn1">
     </form>
 </div>
 

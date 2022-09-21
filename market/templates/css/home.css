@@ -33,7 +33,6 @@
     justify-content: space-between;
 }
 h1{
-    /*background-color: rgb(148, 204, 148);*/
     font-size: 50;
     margin-left: 5%;
 }
@@ -101,8 +100,8 @@ h1{
 .list{
     border: 2px solid rgb(63, 161, 63);
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
     height: 80%;
-    margin-left: 10%;    
-    margin-right: 10%;
+    margin-left: 5%;    
+    margin-right: 5%;
 }
