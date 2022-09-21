@@ -1,14 +1,47 @@
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'HS-Regular';
+}
+h1{
+    font-size: 45px;
+}
+.btn{
+    font-size: large;
+    color: rgb(63, 161, 63);
+    width: 90px;
+}
+.btn:hover{
+    background-color: rgb(63, 161, 63);
+    color: whitesmoke;
+}
 .container{
+    border: 10px solid rgb(63, 161, 63);
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: 450px;
+    height: 350px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -220px;
+    margin-top: -190px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     text-align: center;
-<<<<<<< HEAD
-    margin-top: 13%;
 }
-.btn{
-    font-size: medium;
+#user{
+    width: 200px;
 }
-.btn{
-    font-size: medium;
-=======
-    margin-top: 15%;
->>>>>>> da443d5e53edca3af9c3b2116e46db47117246c4
+#psw1{
+    width: 200px;
+}
+#psw2{
+    width: 200px;
 }
